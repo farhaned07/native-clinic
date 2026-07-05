@@ -1,16 +1,49 @@
-# React + Vite
+# Native Clinic — Protocol Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end prototype for **Native Clinic**, a protocol-led wellness and clinic experience focused on calm intake, structured recommendations, and a premium patient-facing interface.
 
-Currently, two official plugins are available:
+This repository contains the web application surface rather than a generic React starter.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What this demonstrates
 
-## React Compiler
+- Translating a healthcare/wellness service concept into a clean digital workflow
+- Building a calm, premium UI for patient or clinic-facing use
+- Rapid front-end execution using a modern React stack
+- Product thinking around intake, protocol matching, and service presentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Product direction
 
-## Expanding the ESLint configuration
+The interface is designed around a simple care/service flow:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Patient need → Intake → Protocol match → Recommendation → Follow-up path
+```
+
+The goal is to make the experience feel clinical, private, and easy to understand without overloading the user.
+
+## Stack
+
+```text
+React 19
+Vite
+Tailwind CSS 4
+ESLint
+```
+
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Portfolio note
+
+This project is included as a front-end product execution sample: taking a service concept from positioning to interface structure, then implementing it in a deployable React/Vite codebase.
